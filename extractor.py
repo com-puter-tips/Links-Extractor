@@ -3,7 +3,7 @@
 __author__ = "Devharsh Trivedi"
 __copyright__ = "Copyright 2016, Devharsh Trivedi"
 __license__ = "GPL"
-__version__ = "1.0"
+__version__ = "1.2"
 __maintainer__ = "Devharsh Trivedi"
 __email__ = "devharsh@live.in"
 __status__ = "Production"
@@ -14,17 +14,17 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
 try:
+
 	for link in sys.argv[1:]:
 		page = requests.get(link)
 		soup = BeautifulSoup(page.text, "lxml")
 		extlist = list()
 		intlist = list()
-		url = urlparse(link)
 		
 		for a in soup.findAll("a", attrs={"href":True}):
 			if len(a['href'].strip()) != 0 and a['href'][0] != '#' and a['href'].strip() != '#top' and 'javascript:' not in a['href'].strip() and 'mailto:' not in a['href'].strip() and 'tel:' not in a['href'].strip() and a['href'].strip() != '/':
 				if 'http' in a['href'].strip() or 'https' in a['href'].strip():
-					if url.netloc.lower() in a['href'].lower().strip():
+					if urlparse(link).netloc.lower() in urlparse(a['href'].strip()).netloc.lower():
 						intlist.append(a['href'])
 					else:
 						extlist.append(a['href'])
