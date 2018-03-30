@@ -7,4 +7,5 @@ python:
 install:
   - pip install requests
   - pip install bs4
- script: python extractor.py http://com.puter.tips
+ script:
+   - python extractor.py http://com.puter.tips
