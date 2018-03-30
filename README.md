@@ -1,3 +1,5 @@
+![Travis-CI-Build](https://travis-ci.org/devharsh/Links-Extractor.svg?branch=master)
+
 # Links-Extractor
 Extract all internal and external links from a URL in Python.
 
