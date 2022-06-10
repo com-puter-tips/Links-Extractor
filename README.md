@@ -1,4 +1,4 @@
-![Travis-CI-Build](https://travis-ci.org/devharsh/Links-Extractor.svg?branch=master) [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+![Travis-CI-Build](https://travis-ci.org/devharsh/Links-Extractor.svg?branch=master) [![License: GPL 3.0](https://img.shields.io/badge/License-GPL-brightgreen)](https://opensource.org/licenses/gpl-license)
 
 # Links-Extractor
 Extract all internal and external links from a URL in Python.
