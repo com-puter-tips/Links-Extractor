@@ -3,6 +3,16 @@
 # Links-Extractor
 Extract all internal and external links from a URL in Python.
 
-To run type: python extractor.py [http://url1] [https://url2] and so on.
+- To run type:
 
-Find how the script works and the complete tutorial here: http://com.puter.tips/2016/12/extract-all-internal-and-external-links.html
+```% python3 extractor.py [http://url1] [https://url2] and so on..```
+
+- To save the output to a file you can do:
+
+```% python3 extractor.py https://com.puter.tips > out.txt```
+
+Find how the script works and the complete tutorial here -- http://com.puter.tips/2016/12/extract-all-internal-and-external-links.html
+
+For more information/bug report you can contact me on ```devharsh [at] live [dot] in``` or ```com [at] puter [dot] tips```.
+
+You may also find this repository useful for SEO -- https://github.com/com-puter-tips/SEO-Analysis
