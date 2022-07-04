@@ -16,3 +16,29 @@ Find how the script works and the complete tutorial here -- http://com.puter.tip
 For more information/bug report you can contact me on ```devharsh [at] live [dot] in``` or ```com [at] puter [dot] tips```.
 
 You may also find this repository useful for SEO -- https://github.com/com-puter-tips/SEO-Analysis
+
+## Cite
+
+Either:
+
+```
+  @online{DevharshLinks,
+    author = {Devharsh Trivedi},
+    title = {Links-Extractor Source Repository},
+    howpublished = {GitHub},
+    year = {2016},
+    url = {https://github.com/com-puter-tips/Links-Extractor},
+  }
+```
+
+Or if you do not have @online support:
+
+```
+  @misc{DevharshLinks,
+    author = {Devharsh Trivedi},
+    title = {Links-Extractor Source Repository},
+    howpublished = {GitHub},
+    year = {2016},
+    note = {\url{https://github.com/com-puter-tips/Links-Extractor}},
+  }
+```
