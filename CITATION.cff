@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "Links-Extractor"
+abstract: "Extract all internal and external links from a URL in Python."
+authors:
+  - given-names: "Devharsh"
+    family-names: "Trivedi"
+    name-suffix: "Ph.D., CISSP"
+    email: "devharsh.1592@gmail.com"
+    city: "Washington"
+    region: "D.C."
+    post-code: "20003"
+    country: "US"
+version: "1.4"
+date-released: "2016-12-28"
+license: "GPL-3.0"
+repository-code: "https://github.com/com-puter-tips/Links-Extractor"
+url: "https://github.com/com-puter-tips/Links-Extractor"
+keywords:
+  - "links"
+  - "link-extractor"
+  - "url"
+  - "url-parsing"
+  - "web-scraping"
+  - "seo"
