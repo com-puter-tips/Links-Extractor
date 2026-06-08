@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "links-extractor"
+version = "1.4.0"
+description = "Extract all internal and external links from a URL."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "GPL-3.0" }
+authors = [
+    { name = "Devharsh Trivedi", email = "devharsh.1592@gmail.com" },
+]
+keywords = ["links", "link-extractor", "url", "url-parsing", "web-scraping", "seo"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Text Processing :: Markup :: HTML",
+]
+dependencies = ["requests", "beautifulsoup4", "lxml"]
+
+[project.urls]
+Homepage = "https://github.com/com-puter-tips/Links-Extractor"
+Repository = "https://github.com/com-puter-tips/Links-Extractor"
+Issues = "https://github.com/com-puter-tips/Links-Extractor/issues"
+
+[project.scripts]
+links-extractor = "links_extractor:main"
+
+[tool.setuptools]
+py-modules = ["links_extractor"]

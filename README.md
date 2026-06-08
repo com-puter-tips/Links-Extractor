@@ -8,6 +8,14 @@ Extract all internal and external links from a URL in Python.
 
 Links-Extractor fetches one or more web pages and lists the internal and external hyperlinks found on each page. A link is treated as internal when its host matches the host of the page being scanned, and external otherwise. Empty anchors and `javascript:`, `mailto:`, and `tel:` links are ignored.
 
+## Install
+
+```
+pip install links-extractor
+```
+
+This installs the `links-extractor` command. You can also run the script directly from a clone (`python3 extractor.py ...`).
+
 ## Requirements
 
 - Python 3
@@ -24,6 +32,7 @@ pip install -r requirements.txt
 Pass one or more URLs as arguments:
 
 ```
+links-extractor https://example.com
 python3 extractor.py https://example.com
 python3 extractor.py https://example.com https://www.python.org
 ```
