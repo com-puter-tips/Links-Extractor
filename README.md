@@ -11,7 +11,7 @@ Links-Extractor fetches one or more web pages and lists the internal and externa
 ## Install
 
 ```
-pip install links-extractor
+pip install links-extractor-cli
 ```
 
 This installs the `links-extractor` command. You can also run the script directly from a clone (`python3 extractor.py ...`).
